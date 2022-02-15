@@ -108,6 +108,7 @@ input[type="text"]:focus{
 }
 .showdata>span{
     font-size: 2em;
+    line-height:1.5em;
 }
 
 .green{
