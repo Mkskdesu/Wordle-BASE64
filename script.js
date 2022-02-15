@@ -80,7 +80,6 @@ function judge(text) {
     for (const i of text) {
         textTable[i] = 0;
     }
-    console.log(wordTable, textTable);
     for (const i in text) {
         if (text[i] == wordData[i]) {
             textTable[i] = textTable[i] + 1;
@@ -92,7 +91,6 @@ function judge(text) {
             judgeTable.push("black");
         }
     }
-    console.log(textTable,judgeTable);
     show(text, judgeTable);
 
 }
